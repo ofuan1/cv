@@ -14,6 +14,9 @@ body {
 
 .top h1 {
     color: burlywood;
+    font-family: 'Italiana';
+    font-size: 5.8em;
+
 }
 
 .top h2 {
@@ -52,9 +55,11 @@ body {
     text-align: center;
 }
 .bottom hr {
-  margin: 50px auto 50px auto ;
-  width: 550px;
-  position: rlative;
+    margin: 50px auto 50px auto ;
+    width: 550px;
+    position: relative;
+    border: 3px dashed burlywood;
+
   
 }
 .bottom p {
@@ -94,19 +99,22 @@ body {
     text-align: left;
     font-weight: bold;
     
-  }
+}
+
   .tag dd{
     text-align: left;
     font-weight: bold;
     
-  }
+}
+
 .tag1 {
   text-align: left;
 }
+
 .tag1 dt {
     text-align: left;
     font-weight: bold;
-  }
+}
 
 
 
@@ -132,11 +140,6 @@ body {
  
 }
 
-h1 {
-    font-family: 'Italiana';
-    font-size: 5.8em;
-    color: purple;
-}
 
 a {
     text-decoration: none;
@@ -145,10 +148,7 @@ a {
 a:hover {
     background-color: black;
 }
-hr {
-    border: 3px dashed burlywood;
 
-}
 ul {
     list-style-type: none ;
     
@@ -177,6 +177,75 @@ ul {
 }
 .bottom1 {
     text-align: center;
+    font-family: 'Nixie One';
 }
+
+/**
+* Comtact Page Styling
+*/
+
+.contact_name  {
+    text-align: center;
+    
+}
+
+.contact_address {
+    text-align: center;
+}
+
+.card {
+    box-shadow: 1px 2px 3px 0 black;
+    width: 40%;
+    margin: 0 auto;
+    height: 400px;
+    
+}
+
+.input_name {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+#input_name {
+    width: 300px;
+    height: 30px;
+    margin-left: 140px;
+}
+
+#message{
+    width: 300px;
+    height: 60px;
+    margin-left: 140px;
+}
+
+.contact_button:hover {
+    background-color: #555;
+    cursor: pointer;
+
+}
+
+.contact_button {
+    border-radius: 15px;
+    background-color: burlywood;
+    border: 2px solid #1a1a1a;
+    padding: 16px 24px;
+    margin-top: 16px;
+    margin-left: 240px;
+    
+
+}
+
+.contact_address hr {
+    margin: 50px auto 50px auto ;
+    width: 550px;
+    position: relative;
+    border: 3px dashed black;
+
+    
+}
+
+
 
 
